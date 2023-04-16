@@ -1,12 +1,18 @@
+import React, { useState } from 'react';
+
 import imgBoostrap from '../assets/img/skills/bootstrap-logo-shadow.png'
+
 export const About = () => {
-    /*var boostrap = document.getElementById('boostrap');
+    const [hover, setHover] = useState(false);
 
-    boostrap.onclick = function(){
-        boostrap.src = imgBoostrap;
-    }*/
+    const handleMouseEnter = () => {
+        setHover(true);
+    };
 
-    /*document.getElementById("boostrap").innerHTML = "<img src={ imgBoostrap } className='mark'>";*/
+    const handleMouseLeave = () => {
+        setHover(false);
+    };
+
 
   return (
     <>
@@ -30,7 +36,14 @@ export const About = () => {
                     <span className="skill">HTML</span>
                     <span className="skill">CSS</span>
                     <span className="skill">JavaScript</span>
-                    <span className="skill" id="boostrap" >Boostrap</span>
+
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgBoostrap } alt="Imagen Habilidad" /> : 'Boostrap'}
+                    </span>
+
                     <span className="skill">Node.js</span>
                     <span className="skill">React</span>
                     <span className="skill">SQL</span>
