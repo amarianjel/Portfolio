@@ -249,16 +249,17 @@ h2 {
 }
 
 .english {
-  width: 75%;
+  width: 20%;
 }
 
-.french {
-  width: 50%;
+.korean {
+  width: 2%;
 }
 
 .skill {
-  display: inline-block;
+  /* display: inline-block;
   margin: 0.5em 0.2em;
+  cursor: pointer; */
 
   background-color: var(--accent-color);
   color: #fff;
@@ -266,6 +267,8 @@ h2 {
   padding: 5px 10px;
   border-radius: 25px;
 }
+
+
 
 
 /*=============== PROJECTS SECTION ===============*/

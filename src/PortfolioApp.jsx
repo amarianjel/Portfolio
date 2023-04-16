@@ -3,12 +3,12 @@ import { Navigation, Header, Home, About, Proyects, Experience, Contact } from '
 export const PortfolioApp = () => {
     return (
         <>
-            <nav id="navbar" class="navbar"><a href="#"></a></nav>
-            <div class="container">
+            <nav id="navbar" className="navbar"><a href="#"></a></nav>
+            <div className="container">
                 <Navigation></Navigation>
-                <div class="portfolio">
+                <div className="portfolio">
                     <Header></Header>
-                    <div class="content">
+                    <div className="content">
                         <Home></Home>
                         <About></About>
                         <Proyects></Proyects>

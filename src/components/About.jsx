@@ -1,9 +1,18 @@
+import imgBoostrap from '../assets/img/skills/bootstrap-logo-shadow.png'
 export const About = () => {
+    /*var boostrap = document.getElementById('boostrap');
+
+    boostrap.onclick = function(){
+        boostrap.src = imgBoostrap;
+    }*/
+
+    /*document.getElementById("boostrap").innerHTML = "<img src={ imgBoostrap } className='mark'>";*/
+
   return (
     <>
-        <section class="content-card about" id="about">
+        <section className="content-card about" id="about">
             <h1>Sobre mi</h1>
-            <div class="about-item about-me">
+            <div className="about-item about-me">
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
                     non dolore facere reiciendis iusto nemo tempore laboriosam
@@ -15,36 +24,37 @@ export const About = () => {
                     consectetur quos fugiat fugit! Officiis, temporibus.
                 </p>
             </div>
-            <div class="col-2">
-                <div class="about-item skills">
+            <div className="col-2">
+                <div className="about-item skills">
                     <h1>Habilidades</h1>
-                    <span class="skill">HTML</span>
-                    <span class="skill">CSS</span>
-                    <span class="skill">JavaScript</span>
-                    <span class="skill">Node.js</span>
-                    <span class="skill">React</span>
-                    <span class="skill">SQL</span>
-                    <span class="skill">Git</span>
-                    <span class="skill">API</span>
-                    <span class="skill">Unix/Linux</span>
-                    <span class="skill">Jira</span>
-                    <span class="skill">Confluence</span>
-                    <span class="skill">Figma</span>
+                    <span className="skill">HTML</span>
+                    <span className="skill">CSS</span>
+                    <span className="skill">JavaScript</span>
+                    <span className="skill" id="boostrap" >Boostrap</span>
+                    <span className="skill">Node.js</span>
+                    <span className="skill">React</span>
+                    <span className="skill">SQL</span>
+                    <span className="skill">Git</span>
+                    <span className="skill">API</span>
+                    <span className="skill">Unix/Linux</span>
+                    <span className="skill">Jira</span>
+                    <span className="skill">Confluence</span>
+                    <span className="skill">Figma</span>
                 </div>
 
-                <div class="about-item languages">
+                <div className="about-item languages">
                     <h1>Lenguajes</h1>
-                    <div class="language">
-                        <p>polish</p>
-                        <span class="bar"><span class="polish"></span></span>
+                    <div className="language">
+                        <p>Español</p>
+                        <span className="bar"><span className="espanol"></span></span>
                     </div>
-                    <div class="language">
-                        <p>english</p>
-                        <span class="bar"><span class="english"></span></span>
+                    <div className="language">
+                        <p>English</p>
+                        <span className="bar"><span className="english"></span></span>
                     </div>
-                    <div class="language">
-                        <p>french</p>
-                        <span class="bar"><span class="french"></span></span>
+                    <div className="language">
+                        <p>Korean</p>
+                        <span className="bar"><span className="korean"></span></span>
                     </div>
                 </div>
             </div>
