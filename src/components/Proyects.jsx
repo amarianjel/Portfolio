@@ -1,4 +1,7 @@
-import React from 'react'
+import imgSureno from '../assets/img/proyects/angular-sureno.png'
+import imgTrawen from '../assets/img/proyects/angular-trawen.png'
+import imgTesis from '../assets/img/proyects/machineLearning.png'
+import imgTumunan from '../assets/img/proyects/php-tumunan.png'
 
 export const Proyects = () => {
   return (
@@ -7,53 +10,49 @@ export const Proyects = () => {
             <h1>Projectos</h1>
             <div className="col-2 project-list">
                 <div className="project-tile">
-                    <img src="https://shots.codepen.io/nietoperq/pen/BaPJqGW-512.webp?version=1674304822"
+                    <img src={ imgSureno }
                         alt="" />
-                    <div className="overlay">
+                    <div className="overlay angular">
                         <div className="project-description">
-                            <h3>Project 1</h3>
+                            <h3>Café Sureño</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Nisi aperiam voluptate accusamus velit omnis.
+                                Este proyecto contó con relación con el cliente para la toma de requisitos. Tomas de pedidos y agendar pedidos para el retiro en periodo de pandemia fueron las causas de la actualización del negocio.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="project-tile">
-                    <img src="https://shots.codepen.io/nietoperq/pen/GRBOjyV-512.webp?version=1674084446"
+                    <img src={ imgTrawen }
                         alt="" />
-                    <div className="overlay">
+                    <div className="overlay angular">
                         <div className="project-description">
-                            <h3>Project 2</h3>
+                            <h3>Trawen</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Nisi aperiam voluptate accusamus velit omnis.
+                                Dashboard para tener registrados a los jugadores y socios del Club de Voleibol de Trawen.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="project-tile">
-                    <img src="https://shots.codepen.io/nietoperq/pen/dyjWxgX-512.webp?version=1673554073"
+                    <img src={ imgTesis }
                         alt="" />
-                    <div className="overlay">
+                    <div className="overlay python">
                         <div className="project-description">
-                            <h3>Project 3</h3>
+                            <h3>Tesis</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Nisi aperiam voluptate accusamus velit omnis.
+                                Investigación de Técnicas clásicas de Machine Learning para predecir las posibles secuelas de pacientes post ACV Isquémico.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className="project-tile">
-                    <img src="https://shots.codepen.io/nietoperq/pen/vYagdwo-512.webp?version=1673549480"
+                    <img src={ imgTumunan }
                         alt="" />
-                    <div className="overlay">
+                    <div className="overlay php">
                         <div className="project-description">
-                            <h3>Project 4</h3>
+                            <h3>Viña Tumuñan</h3>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Nisi aperiam voluptate accusamus velit omnis.
+                                Aplicación para cliente de San Fernando con inventario y página web subida a su servidor.
                             </p>
                         </div>
                     </div>

@@ -273,8 +273,8 @@ h2 {
 }
 
 span.imgSkill {
-  position: relative;
   display: inline-block;
+  position: relative;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   -ms-transition: all 1s ease-in-out;
@@ -287,8 +287,8 @@ span.imgSkill img {
   top: 0;
   left: 0;
   margin: 0.5em 1em;
-  max-width: 80px;
-  max-height: 150px;
+  max-width: 50px;
+  max-height: 100px;
 }
 
 
@@ -318,11 +318,10 @@ span.imgSkill img {
   height: 100%;
   object-fit: cover;
   z-index: 1;
-  filter: contrast(70%) brightness(110%) grayscale(20%);
+  /* filter: contrast(70%) brightness(110%) grayscale(20%); */
 }
 
 .overlay {
-  background: #a8858fe0;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -331,6 +330,35 @@ span.imgSkill img {
   color: white;
   z-index: 2;
   transition: 0.5s ease;
+}
+
+.overlay.angular{
+  background: #B52E31;
+  background-image: url('./assets/img/skills/angular.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height:100%;
+  opacity: 0.8;
+}
+
+.overlay.python{
+  background:#FEE12B;
+  color: black;
+  background-image: url('./assets/img/skills/jupyter.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height:100%;
+  opacity: 0.8;
+}
+
+.overlay.php{
+  background:#777BB3;
+  background-image: url('./assets/img/skills/php.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height:100%;
+  opacity: 0.8;
+
 }
 
 .project-description {

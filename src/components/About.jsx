@@ -26,7 +26,7 @@ export const About = () => {
     };
 
     const handleMouseLeave = () => {
-        setHover(false);
+        setHover(true);
     };
 
 
@@ -71,43 +71,6 @@ export const About = () => {
                         className={hover ? 'imgSkill' : 'skill'}
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}>
-                        {hover ? <img src={ imgBoostrap } alt="Imagen Habilidad" /> : 'Boostrap'}
-                    </span>
-                    {/*  */}
-                    <span 
-                        className={hover ? 'imgSkill' : 'skill'}
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}>
-                        {hover ? <img src={ imgNodejs } alt="Imagen Habilidad" /> : 'NodeJs'}
-                    </span>
-                    <span 
-                        className={hover ? 'imgSkill' : 'skill'}
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}>
-                        {hover ? <img src={ imgReact } alt="Imagen Habilidad" /> : 'React'}
-                    </span>
-                    <span 
-                        className={hover ? 'imgSkill' : 'skill'}
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}>
-                        {hover ? <img src={ imgSql } alt="Imagen Habilidad" /> : 'SQL'}
-                    </span>
-                    <span 
-                        className={hover ? 'imgSkill' : 'skill'}
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}>
-                        {hover ? <img src={ imgGit } alt="Imagen Habilidad" /> : 'Git'}
-                    </span>
-                    <span 
-                        className={hover ? 'imgSkill' : 'skill'}
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}>
-                        {hover ? <img src={ imgTrello } alt="Imagen Habilidad" /> : 'Trello'}
-                    </span>
-                    <span 
-                        className={hover ? 'imgSkill' : 'skill'}
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}>
                         {hover ? <img src={ imgPhp } alt="Imagen Habilidad" /> : 'PHP'}
                     </span>
                     <span 
@@ -126,19 +89,7 @@ export const About = () => {
                         className={hover ? 'imgSkill' : 'skill'}
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}>
-                        {hover ? <img src={ imgMachineLearning } alt="Imagen Habilidad" /> : 'Machine Learning'}
-                    </span>
-                    <span 
-                        className={hover ? 'imgSkill' : 'skill'}
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}>
-                        {hover ? <img src={ imgAngular } alt="Imagen Habilidad" /> : 'Angular'}
-                    </span>
-                    <span 
-                        className={hover ? 'imgSkill' : 'skill'}
-                        onMouseEnter={handleMouseEnter}
-                        onMouseLeave={handleMouseLeave}>
-                        {hover ? <img src={ imgYii2 } alt="Imagen Habilidad" /> : 'Yii 2'}
+                        {hover ? <img src={ imgBoostrap } alt="Imagen Habilidad" /> : 'Boostrap'}
                     </span>
                     <span 
                         className={hover ? 'imgSkill' : 'skill'}
@@ -150,7 +101,55 @@ export const About = () => {
                         className={hover ? 'imgSkill' : 'skill'}
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgNodejs } alt="Imagen Habilidad" /> : 'NodeJs'}
+                    </span>
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgAngular } alt="Imagen Habilidad" /> : 'Angular'}
+                    </span>
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgReact } alt="Imagen Habilidad" /> : 'React'}
+                    </span>
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgYii2 } alt="Imagen Habilidad" /> : 'Yii 2'}
+                    </span>
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgMachineLearning } alt="Imagen Habilidad" /> : 'Machine Learning'}
+                    </span>
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgSql } alt="Imagen Habilidad" /> : 'SQL'}
+                    </span>
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgGit } alt="Imagen Habilidad" /> : 'Git'}
+                    </span>
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
                         {hover ? <img src={ imgBPMN } alt="Imagen Habilidad" /> : 'BPMN'}
+                    </span>
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgTrello } alt="Imagen Habilidad" /> : 'Trello'}
                     </span>
                 </div>
 
