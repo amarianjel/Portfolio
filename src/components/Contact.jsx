@@ -20,6 +20,10 @@ export const Contact = () => {
                 <div className="input-box">
                     <input type="submit" className="submit-btn" id="submit" value="Enviar" />
                 </div>
+                <div className="input-box">
+         
+                    <a href="https://wa.me/56922146821" className="submit-btn" id="whatsapp" value="WhatsApp" ></a>
+                </div>
             </form>
         </section>
     </>

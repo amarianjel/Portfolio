@@ -58,7 +58,7 @@ export const Proyects = () => {
                     </div>
                 </div>
             </div>
-            <a href="https://github.com/nietoperq">see more...</a>
+            <a href="https://github.com/amarianjel">ver más...</a>
         </section>
     </>
   )
