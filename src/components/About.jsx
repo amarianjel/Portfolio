@@ -17,6 +17,7 @@ import imgAngular from '../assets/img/skills/angular.png'
 import imgYii2 from '../assets/img/skills/yii.png'
 import imgMaterialize from '../assets/img/skills/materialize.png'
 import imgBPMN from '../assets/img/skills/bizagi.png'
+import imgMongoDB from '../assets/img/skills/mongodb.png'
 
 export const About = () => {
     const [hover, setHover] = useState(false);
@@ -131,7 +132,13 @@ export const About = () => {
                         className={hover ? 'imgSkill' : 'skill'}
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}>
-                        {hover ? <img src={ imgSql } alt="Imagen Habilidad" /> : 'SQL'}
+                        {hover ? <img src={ imgSql } alt="Imagen Habilidad" /> : 'DB Relacional'}
+                    </span>
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgMongoDB } alt="Imagen Habilidad" /> : 'DB no Relacional'}
                     </span>
                     <span 
                         className={hover ? 'imgSkill' : 'skill'}
