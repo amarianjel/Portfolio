@@ -1,5 +1,5 @@
 import perfil from '../assets/img/perfil.jpg'
-import Curriculum from '../../public/download/curriculum-edufis.pdf'
+import Curriculum from '../../public/download/curriculum-AbrahamMarianjel-IngCivilInformatico.pdf'
 
 export const Header = () => {
   return (

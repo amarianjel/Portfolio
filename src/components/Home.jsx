@@ -48,6 +48,11 @@ export const Home = () => {
     }
   }
 
+  const handleClick = () =>{
+    const click = document.getElementById('contact');
+    click.scrollIntoView({ behavior: "smooth"});
+  }
+
   return (
     <>
       <section className="banner" id="home">
@@ -59,11 +64,11 @@ export const Home = () => {
                       {({ isVisible }) =>
                       <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                         <span className="tagline">Bienvenid@ a mi Portafolio</span>
-                        <h1>{`Hola! Soy Abraham`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Programador Web", "Programador" ]'><span className="wrap">{text}</span></span></h1>
+                        <h1>{`Hola! Soy Abraham`} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Programador Web", "Programador" ]'><span className="wrap">{text}</span></span></h1>
                           <p>Motivado, proactivo</p>
-                          <button onClick={() => console.log('connect')}>Conectemos <ArrowRightCircle size={25} /></button>
+                          <button onClick={ handleClick }>Conectemos <ArrowRightCircle size={25} /></button>
                       </div>}
-                    </TrackVisibility>
+            </TrackVisibility>
             </div>
             <div className="row">
               <div className="col-12 md-6 xs-5">
