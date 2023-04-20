@@ -6,7 +6,6 @@ export const Experience = () => {
             <div className="timeline">
                 <div className="timeline-items">
                     <div className="timeline-item">
-                    <div className="timeline-item">
                         <div className="timeline-date">2023 - ahora</div>
                         <div className="timeline-content">
                             <h3>Proyectos FONDEPORTE y GORE</h3>
@@ -14,6 +13,15 @@ export const Experience = () => {
                             <p className="organizacion">Club Trawen</p>
                         </div>
                     </div>
+                    <div className="timeline-item">
+                        <div className="timeline-date">2022 - 2023</div>
+                        <div className="timeline-content">
+                            <h3>Análisis de datos con Machine Learning</h3>
+                            <p>Tesis que pretendia predecir secuelas post ACV Isquémico en los pacientes. Este proyecto se llevo a cabo con un equipo multidiciplinario de médico, bioquímico e informático.</p>
+                            <p className="organizacion">Univerisidad del Bio Bio</p>
+                        </div>
+                    </div>
+                    <div className="timeline-item">
                         <div className="timeline-date">2022</div>
                         <div className="timeline-content">
                             <h3>Ayudante de Asignatura</h3>

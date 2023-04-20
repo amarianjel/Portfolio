@@ -18,6 +18,7 @@ import imgYii2 from '../assets/img/skills/yii.png'
 import imgMaterialize from '../assets/img/skills/materialize.png'
 import imgBPMN from '../assets/img/skills/bizagi.png'
 import imgMongoDB from '../assets/img/skills/mongodb.png'
+import imgPostman from '../assets/img/skills/postman.png'
 
 export const About = () => {
     const [hover, setHover] = useState(false);
@@ -36,16 +37,9 @@ export const About = () => {
         <section className="content-card about" id="about">
             <h1>Sobre mi</h1>
             <div className="about-item about-me">
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis
-                    non dolore facere reiciendis iusto nemo tempore laboriosam
-                    laborum fugit dolorum totam incidunt tempora laudantium
-                    obcaecati natus sit, aspernatur consectetur! Voluptates?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-                    consectetur quos fugiat fugit! Officiis, temporibus.
-                </p>
+                <p>Egresado del área de las Ciencias de la Computación, Universidad del Bío Bío,  Licenciado en Ciencias de la Ingeniería e Ingeniero Civil Informático. Diplomado en Emprendimiento y Liderazgo que imparte dicha Universidad.  Tesis “Análisis de datos en Pacientes post ACV isquémico, usando Técnicas clásicas de Machine learning” del área de salud.</p>
+                <p>He trabajado en diversos proyectos de Back-end y Front-end con metodologías de Scrum aportando en la formación de directrices para el proyecto y metodología Ágil en directa colaboración con el cliente.</p>
+                <p>Durante este periodo he estado colaborando en proyectos de distintas áreas como, salud, deporte y negocios.</p>
             </div>
             <div className="col-2">
                 <div className="about-item skills">
@@ -157,6 +151,12 @@ export const About = () => {
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}>
                         {hover ? <img src={ imgTrello } alt="Imagen Habilidad" /> : 'Trello'}
+                    </span>
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgPostman } alt="Imagen Habilidad" /> : 'Check Point'}
                     </span>
                 </div>
 

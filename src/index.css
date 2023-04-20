@@ -316,6 +316,11 @@ h2 {
   margin: 0.5rem 0;
 }
 
+.about-item p{
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
 .language {
   margin-bottom: 15px;
 }
