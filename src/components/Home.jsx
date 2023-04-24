@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/charizard-mega-x.gif";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
@@ -70,7 +69,7 @@ export const Home = () => {
                       </div>}
             </TrackVisibility>
             </div>
-            <div className="row">
+            {/* <div className="row">
               <div className="col-12 md-6 xs-5">
               <TrackVisibility>
                       {({ isVisible }) =>
@@ -79,7 +78,7 @@ export const Home = () => {
                         </div>}
                     </TrackVisibility>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
       </section>

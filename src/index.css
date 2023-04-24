@@ -211,13 +211,13 @@ h2 {
 .banner {
   margin-top: 0;
   position: relative;
-  /* padding: 260px 0 100px 0; */
   height: 100vh;
-  background-image: url('./assets/img/fondo-charizard.jpg');
-  background-size: 300%;
-  background-position: top center;
+  /* background-image: url('./assets/img/fondo-charizard.jpg'); */
+  background-image: url('./assets/img/escritorioConCamara.jpg');
+  background-size: 200%;
+  /* background-position: top center; */
   /* background-size: cover; */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   animation: movimiento 20s infinite linear alternate; 
 }
 
@@ -268,18 +268,26 @@ h2 {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  color: white;
+  text-shadow: 3px 3px 3px black;
 }
+.banner h1 span{
+  text-shadow: 3px 3px 3px rgb(255, 255, 255);
+}
+
 .banner p {
-  color: #000000;
+  color: #ffffff;
   text-align: center;
   font-size: 1em;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
   font-style: italic;
+  text-shadow: 3px 3px 3px black;
 }
+
 .banner button {
-  color: #000000;
+  color: #ffffff;
   background-color:inherit;
   position: relative;
   border: none;
