@@ -75,7 +75,7 @@ export const Home = () => {
               <TrackVisibility>
                       {({ isVisible }) =>
                         <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                          <img src={headerImg} alt="Header Img"/>
+                          <img src={ headerImg } className="personaje" alt="Header Img"/>
                         </div>}
                     </TrackVisibility>
               </div>
