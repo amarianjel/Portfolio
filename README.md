@@ -1,10 +1,9 @@
-# [Portafolio Abraham Marianjel](https://github.com/amarianjel/Portfolio/) | 
-[<img src="https://i.postimg.cc/mrLDL2gf/codepen.png" alt="LinkedIn" class="footer-nav__link-image" height="20px" />](https://codepen.io/amarianjel/)  |
-[<img src="https://i.postimg.cc/4dhYKfj8/facebook.png" alt="LinkedIn" class="footer-nav__link-image" height="40px" />](https://www.facebook.com/Abraham13071993/)  |
+# [Portafolio Abraham Marianjel](https://github.com/amarianjel/Portfolio/) | [<img src="https://i.postimg.cc/mrLDL2gf/codepen.png" alt="LinkedIn" class="footer-nav__link-image" height="20px" />](https://codepen.io/amarianjel/)  |
+[<img src="https://i.postimg.cc/4dhYKfj8/facebook.png" alt="LinkedIn" class="footer-nav__link-image" height="30px" />](https://www.facebook.com/Abraham13071993/)  |
 [<img src="https://i.postimg.cc/J7BLFtdc/linkedin.png" alt="LinkedIn" class="footer-nav__link-image" height="20px" />](https://www.linkedin.com/in/amarianjel/)  |
  [<img src="https://i.postimg.cc/sfJtqS4W/instagram.png" alt="Instagram" class="footer-nav__link-image" height="20px" />](https://www.instagram.com/abr_marianjel/) |
   [<img src="https://i.postimg.cc/5NBMxTJX/github.png" alt="GitHub" class="footer-nav__link-image" height="20px" />](https://github.com/amarianjel)  |
-  [<img src="https://i.postimg.cc/1Xj3mL3G/github-Pages-blanco.png" alt="GitHub" class="footer-nav__link-image" height="20px" />](https://amarianjel.github.io/Portfolio/)  |
+  [<img src="https://i.postimg.cc/1Xj3mL3G/github-Pages-blanco.png" alt="GitHub" class="footer-nav__link-image" height="30px" />](https://amarianjel.github.io/Portfolio/)  |
 
 Portafolio con algunos trabajos, descripción y contacto.
 
