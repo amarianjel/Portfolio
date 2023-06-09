@@ -1,41 +1,71 @@
-import React, { useRef } from 'react';
+import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 export const Contact = () => {
-
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
+    };
 
-        emailjs.sendForm('service_fzsm2el', 'template_cfsudgk', form.current, '5sh-Yc6AevRUdoOT5')
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [msj, setMsj] = useState('');
+
+    const isFormValid = name !== ''&& email !== '' && msj !== '';
+    
+    const sendMessage = () => {
+        if (!isFormValid) {
+            Swal.fire(
+                'Formulario incompleto',
+                'Por favor completa todos los campos',
+                'warning'
+            )
+        }else{
+            emailjs.sendForm('service_fzsm2el', 'template_cfsudgk', form.current, '5sh-Yc6AevRUdoOT5')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
-        });
-    };
-
-  return (
+            });
+            
+            Swal.fire(
+                'Enviado!',
+                'Gracias por tu mensaje!',
+                'success'
+            )
+            setName('');
+            setEmail('');
+            setMsj('');
+        }
+    }
+return (
     <>
         <section className="content-card contact" id="contact">
             <h1>Contacto</h1>
-            <form className="form" id="form" ref={form} onSubmit={sendEmail}>
+            <form className="form" id="form" ref={ form } onSubmit={ sendEmail }>
                 <div className="input-box">
-                    <input type="text" className="text-input" name="name" placeholder="Nombre" />
+                    <input type="text" className="text-input" name="name" placeholder="Nombre" value={ name } onChange={(e) => setName(e.target.value)}/>
                 </div>
                 <div className="input-box">
-                    <input type="email" className="text-input" name="email" id="email" placeholder="Email" />
+                    <input type="email" className="text-input" name="email" id="email" placeholder="Email" value={ email } onChange={(e) => setEmail(e.target.value)}/>
                 </div>
                 <div className="input-box">
                     <input type="subject" className="text-input" name="subject" id="subject"
                         placeholder="Asunto" />
                 </div>
                 <div className="input-box">
-                    <textarea className="message" name="message" placeholder="Mensaje..."/>
+                    <textarea className="message" name="message" placeholder="Mensaje..." value={ msj } onChange={(e) => setMsj(e.target.value)} />
                 </div>
                 <div className="input-box">
-                    <input type="submit" className="submit-btn" id="submit" value="Enviar"/>
+                    <input 
+                    type="submit" 
+                    className="submit-btn" 
+                    id="submit" 
+                    value="Enviar"
+                    onClick={ sendMessage }
+                    />
                 </div>
                 <div className="input-box">
                     <a href="https://wa.me/56922146821" target="_blank" className="submit-btn" id="whatsapp" value="WhatsApp">
@@ -45,5 +75,5 @@ export const Contact = () => {
             </form>
         </section>
     </>
-  )
+    )
 }

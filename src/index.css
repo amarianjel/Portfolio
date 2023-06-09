@@ -335,6 +335,8 @@ span.wrap{
 .about {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .about-item {
@@ -345,6 +347,11 @@ span.wrap{
 .about-item p{
   text-align: justify;
   text-indent: 1.5em;
+  margin: 10px;
+}
+
+.skillLenguaje{
+  margin-top: 4rem;
 }
 
 .language {
@@ -419,6 +426,10 @@ span.imgSkill img {
 
 
 /*=============== PROJECTS SECTION ===============*/
+#projects{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 
 .project-list {
   margin: 20px 0;
@@ -467,7 +478,7 @@ span.imgSkill img {
   opacity: 0.7;
   color: black;
   text-emphasis-color: rgb(255, 255, 255);
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.99rem;
 }
 
@@ -480,7 +491,7 @@ span.imgSkill img {
   opacity: 0.7;
   color: black;
   text-emphasis-color: rgb(255, 255, 255);
-  font-weight: 700;
+  font-weight: 500;
   font-size: 0.99rem;
 }
 
@@ -493,7 +504,7 @@ span.imgSkill img {
   opacity: 0.7;
   color: rgb(255, 255, 255);
   text-emphasis-color: rgb(255, 255, 255);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.99rem;
 }
 

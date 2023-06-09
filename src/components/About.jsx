@@ -6,7 +6,7 @@ import imgJAVASCRIPT from '../assets/img/skills/javascript.png'
 import imgBoostrap from '../assets/img/skills/bootstrap-logo-shadow.png'
 import imgNodejs from '../assets/img/skills/node.png'
 import imgReact from '../assets/img/skills/react.png'
-import imgSql from '../assets/img/skills/sql.png'
+import imgPostgreSql from '../assets/img/skills/postgreSql.png'
 import imgGit from '../assets/img/skills/git.png'
 import imgTrello from '../assets/img/skills/trello.png'
 import imgPhp from '../assets/img/skills/php.png'
@@ -19,6 +19,9 @@ import imgMaterialize from '../assets/img/skills/materialize.png'
 import imgBPMN from '../assets/img/skills/bizagi.png'
 import imgMongoDB from '../assets/img/skills/mongodb.png'
 import imgPostman from '../assets/img/skills/postman.png'
+import imgDjango from '../assets/img/skills/django.png'
+import imgSelenium from '../assets/img/skills/selenium.png'
+
 
 export const About = () => {
     const [hover, setHover] = useState(false);
@@ -32,7 +35,7 @@ export const About = () => {
     };
 
 
-  return (
+return (
     <>
         <section className="content-card about" id="about">
             <h1>Sobre mi</h1>
@@ -41,7 +44,7 @@ export const About = () => {
                 <p>He trabajado en diversos proyectos de Back-end y Front-end con metodologías de Scrum aportando en la formación de directrices para el proyecto y metodología Ágil en directa colaboración con el cliente.</p>
                 <p>Durante este periodo he estado colaborando en proyectos de distintas áreas como, salud, deporte y negocios.</p>
             </div>
-            <div className="col-2">
+            <div className="col-2 skillLenguaje">
                 <div className="about-item skills">
                     <h1>Habilidades</h1>
                     <span 
@@ -114,6 +117,18 @@ export const About = () => {
                         className={hover ? 'imgSkill' : 'skill'}
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgDjango } alt="Imagen Habilidad" /> : 'Django'}
+                    </span>
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
+                        {hover ? <img src={ imgSelenium } alt="Imagen Habilidad" /> : 'Data extraction'}
+                    </span>
+                    <span 
+                        className={hover ? 'imgSkill' : 'skill'}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}>
                         {hover ? <img src={ imgYii2 } alt="Imagen Habilidad" /> : 'Yii 2'}
                     </span>
                     <span 
@@ -126,7 +141,7 @@ export const About = () => {
                         className={hover ? 'imgSkill' : 'skill'}
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}>
-                        {hover ? <img src={ imgSql } alt="Imagen Habilidad" /> : 'DB Relacional'}
+                        {hover ? <img src={ imgPostgreSql } alt="Imagen Habilidad" /> : 'DB Relacional'}
                     </span>
                     <span 
                         className={hover ? 'imgSkill' : 'skill'}

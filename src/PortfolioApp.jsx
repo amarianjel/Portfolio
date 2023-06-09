@@ -3,7 +3,7 @@ import { Navigation, Header, Home, About, Proyects, Experience, Contact } from '
 export const PortfolioApp = () => {
     return (
         <>
-            <nav id="navbar" className="navbar"><a href="#"></a></nav>
+            <nav id="navbar" className="navbar"><a href=""></a></nav>
             <div className="container">
                 <Navigation></Navigation>
                 <div className="portfolio">
