@@ -80,7 +80,7 @@ export default defineConfig({
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-### Instalación de librerias
+### 🛠️ Instalación de librerias 🛠️
 
 ```
 yarn add gh-pages
