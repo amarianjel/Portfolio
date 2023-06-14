@@ -2,7 +2,6 @@
 
 [![Up to Date](https://github.com/ikatyang/emoji-cheat-sheet/workflows/Up%20to%20Date/badge.svg)](https://github.com/ikatyang/emoji-cheat-sheet/actions?query=workflow%3A%22Up+to+Date%22)
 [![forthebadge](https://img.shields.io/badge/Made%20with-React-blue.svg)](https://reactjs.org/)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/anuraghazra/github-readme-stats?color=0088ff)](https://github.com/amarianjel/Portfolio/pulls)
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Frahuldkjain.github.io%2Fgh-profile-readme-generator&logo=github&style=flat-square)](https://amarianjel.github.io/Portfolio/)
 [![Issues](https://img.shields.io/github/issues/amarianjel/Portfolio?color=0088ff)](https://github.com/amarianjel/Portfolio/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/amarianjel/Portfolio?color=0088ff)](https://github.com/amarianjel/Portfolio/pulls)
