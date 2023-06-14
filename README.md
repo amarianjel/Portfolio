@@ -58,7 +58,7 @@ yarn dev
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 
-## GitHubPages 
+## 💻 GitHubPages 💻
 Para acceder a gitpages, primero hay que realizar algunas modificaciones al archivo de React, como lo son por ejemplo el sistema de rutas, el package y la configuración.
 
 package.json
